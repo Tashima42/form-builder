@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+}
+
+.body {
+  margin-left: 50px; 
+  margin-right: 50px; 
+}
+.btn {
+  margin-top: 10px;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 50px;
+  background-color: #CE2631;
+  margin: 0 0 0 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.form-header {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.nav-text {
+  color: white;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  top: 0;
+  left: 0;
+  margin: 0 0 0 0;
+}
+
+.btn-primary {
+  background-color: #CE2631;
+  color: white;
+}
+
+.toast-color { 
+  background-color: #CE2631;
+  color: white;
+}
+
+.jsoneditor-container {
+  margin-top: 10px;
+}
+.jsoneditor-container h4 {
+  margin-bottom: 5px;
+}
+.jsoneditor {
+  width: 100%;
+  height: 200px;
+  margin-top: 20px;
+}
+
+.spinner-border {
+  display: none;
+}
+
+.button-loading-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.spinner-border {
+  margin-left: 10px;
+  margin-bottom: 3px;
+}

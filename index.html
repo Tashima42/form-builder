@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>Form Builder</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/9.7.4/jsoneditor.css"
+    integrity="sha512-XmjnlPNi5tkrcqMGEG7ZOpGhny9t8fdCk0oxZxjFaqF3cl3UKv+51GgeUoY3Rf/ZaGtBvMZ9dDhceGZ1hcOyMw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <link rel="stylesheet" href="./index.css" />
+</head>
+
+<body>
+
+  <nav class="navbar bg-blue">
+    <a class="navbar-header nav-text" href="#">Form Builder</a>
+  </nav>
+
+  <div class="body">
+
+    <div class="forms" id="forms"></div>
+
+    <!-- TOAST -->
+    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+      <div id="liveToast" class="toast toast-color" role="alert" aria-live="assertive" aria-atomic="true">
+        <div class="toast-header toast-color">
+          <strong class="me-auto">Form Builder</strong>
+          <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+        </div>
+        <p class="toast-body toast-color" id="toast-body"></p>
+      </div>
+    </div>
+    <!-- END OF TOAST -->
+
+    <!-- JAVASCRIPT -->
+    <!-- ATTENTION!!!!! THE ORDER IS SUPER IMPORTANT!!!!!!! don't change the order unless you REALLY know what you're doing-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsoneditor/9.7.4/jsoneditor.min.js"
+      integrity="sha512-KQaWlVsZF0iPXCR8p176hVrg/rlw+smy8dpJ+vwiuvoHyGr8PTVvaAV4ZmsAYdCvMRP8e3sB9pl1mRuaunaXrg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- DON'T CHANGE THE ORDER -->
+    <script src="./forms.js"></script>
+    <script src="./index.js"></script>
+    <script src="./form-builder.js"></script>
+    <script src="./form-functions.js"></script>
+    <!-- END OF JAVASCRIPT-->
+</body>
+
+</html>
